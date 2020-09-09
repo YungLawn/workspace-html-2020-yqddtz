@@ -50,27 +50,29 @@
 
 			<form name="test">
 				<p>
-					Name: <input type="text" name="fname">
+					Username: <input type="text" name="fname">
         </p>
 				<p>
           <!-- password is not secure -->
 						Password: <input type="password" name="pwd">
 				</p>
         <p>
-          Check: <br>
+          Please Select Your Favorite Genre: <br>
 
-          <input type="checkbox" name="rating" value="Great"> Great Job 
-          <br>
-          <input type="checkbox" name="rating" value="Fine"> Fine Job 
+          <input type="radio" name="rating" value="Great"> Rock
+          
+          <input type="radio" name="rating" value="Fine"> Pop 
+
+          <input type="radio" name="rating" value="f"> Jazz
 
         </p>
 
       <p>
-          Radio: <br>
+          Your Favorite Music Service: <br>
           
-          <input type="radio" name="ratingradio" value="Great" checked> Great Job 
-          <br>
-          <input type="radio" name="ratingradio" value="Fine"> Fine Job 
+          <input type="radio" name="ratingradio" value="Great" checked> iTunes 
+          <input type="radio" name="ratingradio" value="Fine"> Last.fm
+          <input type="radio" name="ratingradio" value="Fine"> Spotify
 
         </p> 
         <input type="reset" value="Reset">
